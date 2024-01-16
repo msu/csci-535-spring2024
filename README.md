@@ -38,8 +38,11 @@ By the end of this course, a student will be able to:
 ## How do I contact you?
 
 * The preferred method for asking quiestions in this class is through slack.
-  You will be given a slack invite via email.
+  You will be given a slack invite via email. 
 * If you would prefer to email me, please use: brittany.fasy@montana.edu.  
+* On DMs or emails for the first half of the
+  semester, please include Alex McCleary and Braeden Sopp to ensure
+  that your question is answered.
 
 Office hours this semester will be by appointment. Open office hours will be
 posted on slack.  I'm always happy to meet to discuss topology, so please reach
@@ -69,7 +72,7 @@ The folders in this repository contain all materials for this class.
 - hw: homework assignments (in LaTex) 
 - README.md: the syllabus, including:
     * course objectives (above)
-    * schedule (bottom of this)
+    * schedule (bottom)
 
 ## Creating Your Own Repository 
 
@@ -116,10 +119,10 @@ $ git push origin main
 Your grade for this class will be determined by:
 
 - 50% Homework/Quizes
-- 25% Exam 
-- 25% Project
+- 25% Exam (5% Oral Exam; 20% Final Exam) 
+- 25% Project (including lit review)
 
-A grade of 70\% on the exam is required to earn a B- or higher in the class.
+A grade of 70\% or higher on the final exam is required to earn a B- or higher in the class.
 
 
 ## Class Policies
@@ -152,28 +155,13 @@ solving the problems, not by reading the solutions. Regurgitating solutions you
 found elsewhere will not help you learn the material.  If you feel that you need
 additional resources, please ask.
 
-The following are the assignments that count towards the Homework grade:
-
-- Written homeworks: there will be several standard writtenhomework assignments
-  (some will be group assignments).
-- Literature Review: For this assignment you are asked to write a short
-  literature review or survey articale  on a topology-related research topic of
-  your choice. Your write-up should be about five pages (not including
-  references), and should include at least five primary sources. This lit review
-  should be a descriptive summary of research relating to your topic, including
-  potentially comparisons of different algorithms, hisotrical context (in which
-  order were papers published, and how much time was in between them?).  These
-  articles are written individually, so if you are working on a project
-  together, I suggest that you have different spins on the related research, so
-  that this lit review can be helpful for making progress on your course
-  project.
-- (n+1)st assignment: Write a two-page paper describing to me how you have grown
-  as a computer scientist, mathematician, and/or a researcher in this class, and
-  more generally, in this semester.  To support your argument, you should
-  include your homework (or excerpts from your homework) and other evidence in
-  an appendix as evidence (and reference them!) If you do not feel that you've
-  grown as a computer scientist, mathematician, or researcher, explain why.
-  Remember, style counts. Due: End of the day of the final exam. 
+(n+1)st assignment: Write a two-page paper describing to me how you have grown
+as a computer scientist, mathematician, and/or a researcher in this class, and
+more generally, in this semester.  To support your argument, you should
+include your homework (or excerpts from your homework) and other evidence in
+an appendix as evidence (and reference them!) If you do not feel that you've
+grown as a computer scientist, mathematician, or researcher, explain why.
+Remember, style counts. Due: End of the day of the final exam. 
 
 Grading of homeworks: Each homework question will be graded Pass/Fail.  At
 times, Pass may be designated as High Pass, Pass, or Low Pass. These problem
@@ -194,7 +182,19 @@ paper, or something else appropriate for your topic.  Be creative!
 
 The final presentations will be the last week of class (the week before finals).
 It is expected that you will touch base with me about your chosen topic on or
-before the first week of April.
+before mid-March.
+
+Literature Review: For this assignment you are asked to write a short
+literature review or survey articale  on a topology-related research topic of
+your choice. Your write-up should be about five pages (not including
+references), and should include at least five primary sources. This lit review
+should be a descriptive summary of research relating to your topic, including
+potentially comparisons of different algorithms, hisotrical context (in which
+order were papers published, and how much time was in between them?).  These
+articles are written individually, so if you are working on a project
+together, I suggest that you have different spins on the related research, so
+that this lit review can be helpful for making progress on your course
+project.
 
 Note: If your project overlaps with other classes or your paid research hours,
 please discuss with me.  This is ok, but some line will need to be drawn to
@@ -335,13 +335,18 @@ hear or smell you.
 
 ### Course Textbook(s) 
 
+Required:
+
+- Dey and Wang, [Computational Topology for Data Analysis](http://yusu.belkin-wang.org/CTDAbook-DeyWang.pdf)
 - Edelsbrunner and Harer, Computational Topology
+
+In Addition, the following will be helpful resources:
+
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (in MSU library online!)
-- Additional readings as assigned below
+- Munkres, Elements of Algebraic Topology
 
-### End of Syllabus Task
-
-Thank you for reading the syllabus.  As part of the first assignment, please [complete this survey](https://montana.qualtrics.com/jfe/form/SV_e5QLtvNCzSIxNeS).
+Each week, there will be assigned readings from these resources, as well as from
+papers and other resources found on the web.
 
 ## Schedule
 
@@ -385,15 +390,15 @@ Thank you for reading the syllabus.  As part of the first assignment, please [co
 
 ### Week 8 (5,7 March)
 
-- Exams and Deliverables:
+- Deliverables and Exam:
     * Oral Exam: Please send a slack message to schedule!
-    * H1 (the 6-week assignment) is due 3/5.
-    * Lit review due 3/7.
+    * H1 (the 6-week assignment) is due 3/5
 
 ### Week 9 (12,14 March)
 
 - Deliverables:
-    * H2 due 3/14
+    * H2 due 3/12
+    * Lit review due 3/15
 
 ### Week 10 (19,21 March)
 
