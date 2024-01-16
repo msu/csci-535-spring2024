@@ -358,67 +358,104 @@ papers and other resources found on the web.
     * [Euler, 1736](https://archive.org/details/commentariiacade08impe/page/n185/mode/2up), page 186
 - Assignments
     * Complete the pre-exam and submit to D2L.
-    * Start the T4DS Tutorial.
+    * After the pre-exam, work on the T4DS Tutorial
 - Readings: TBD  
 
 ### Week 2 (23,25 January)
 
 - Topics: Simplicial Complexes
 - Assignments:
-    * Complete [onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
+    * Complete [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
 
 ### Week 3 (30 Jan, 1 February)
 
-* Topics: Homology
+- Topics: Homology
+- Assignments:
+    * Continue working on H1.
 
 ### Week 4 (6,8 February)
 
 - Topics: Computing Persistence
 - Feb 6 Guest Lecture on Computing Persistence, by [Alex McCleary](http://alexmccleary.org/)
 - Feb 8 Guest Lecture on Modern Persistence Computations, by [Hubert Wagner](https://people.clas.ufl.edu/hwagner/)
-- Readings:
+- Readings: TBD
+- Assignments:
+    * Continue working on H1.
 
 ### Week 5 (13,15 February)
 
+- Topics: TBD
+- Readings: TBD
+- Assignments:
+    * Continue working on H1.
+
 ### Week 6 (20,22 February)
 
-- Feb 22 Guest Lecture on Mapper, by [Facundo Mémoli](https://facundo-memoli.org/)
+- Topics: TBD
+- Readings: TBD
 - Readings:
     * [Mapper paper](https://diglib.eg.org/bitstream/handle/10.2312/SPBG.SPBG07.091-100/091-100.pdf?sequence=1)
+- Feb 22 Guest Lecture on Mapper, by [Facundo Mémoli](https://facundo-memoli.org/)
+- Assignments:
+    * Continue working on H1.
+
 
 ### Week 7 (27,29 February)
 
+- Topics: TBD
+- Readings: TBD
+- Assignments:
+    * H1 (the 6-week assignment) is due 2/29
+
 ### Week 8 (5,7 March)
 
+- Topics: TBD
+- Readings: TBD
 - Deliverables and Exam:
     * Oral Exam: Please send a slack message to schedule!
-    * H1 (the 6-week assignment) is due 3/5
 
 ### Week 9 (12,14 March)
 
+- Topics: TBD
+- Readings: TBD
 - Deliverables:
     * H2 due 3/12
     * Lit review due 3/15
 
 ### Week 10 (19,21 March)
 
+- Topics: TBD
+- Readings: TBD
+
 ### Week 11 (26,28 March)
 
+- Topics: TBD
+- Readings: TBD
 - Deliverables:
     * H3 due 3/28
 
 ### Week 12 (2,4 April)
 
+- Topics: TBD
+- Readings: TBD
 - Project Proposals are due!
 
 ### Week 13 (9,11 April)
 
+- Topics: TBD
+- Readings: TBD
 - Deliverables:
     * H4 due 4/11
 
 ### Week 14 (16,18 April)
 
+- Topics: TBD
+- Readings: TBD
+
 ### Week 15 (23,25 April)
+
+- Topics: TBD
+- Readings: TBD
 
 ### Week 16 (30 April, 1 May)
 
@@ -434,18 +471,6 @@ papers and other resources found on the web.
     * [Wiki: Eulerian Path](https://en.wikipedia.org/wiki/Eulerian_path)
     * CLRS, Section 2.1 on Loop Invariants
     * EH, Sections I.1-I.3
-
-- Topics: Curves in R^n
-- Readings: EH, Chapter I
-
-- Topics: Graphs, Knots, and Invariants
-- Readings: EH, Sections II.1-2 
-
-- Topics: Manifolds
-- Readings: EH, Sections II.3-4 
-
-- Topics: Complexes
-- Readings: EH, Sections III.1-3
 
 ### Finals Week
 
