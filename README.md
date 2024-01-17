@@ -88,11 +88,18 @@ To do so, follow these instructions:
     - Select `Private`
     - **DO NOT ADD A README.MD or .gitignore!**
 
-Once your repository is initialized, you can pull it down to your local machine.
+Once your repository is initialized, you can clone it down to your local
+machine.  Assuming that you have SSH keys set-up, you can do this using the
+following command:
+```bash
+$ git clone git@github.com:USERNAME/my-csci-535-spring2024.git
+```
 
+You will likely get a warning that you just cloned an empty repo.
 Next, you should add the class repository as an upstream git repo:
 
 ```bash
+$ cd my-csci-535-spring2024
 $ git remote add upstream https://github.com/msu/csci-535-spring2024.git
 $ git pull upstream main
 $ git push
