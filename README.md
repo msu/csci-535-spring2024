@@ -353,23 +353,26 @@ papers and other resources found on the web.
 ### Week 1 (16, 18 January)
 
 - Topics: Introductions, Shapes 
+- Readings:
+    * See [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
 - Links:
     * [Miro](https://miro.com/app/board/uXjVN5XpKSo=/?share_link_id=989912125647)
     * [Euler, 1736](https://archive.org/details/commentariiacade08impe/page/n185/mode/2up), page 186
 - Assignments
     * Complete the pre-exam and submit to D2L.
-    * After the pre-exam, work on the T4DS Tutorial
-- Readings: TBD  
+    * Begin working on H1.
 
 ### Week 2 (23,25 January)
 
-- Topics: Simplicial Complexes
+- Topics: Simplicial Complexes, From Data to Complexes
+- Jan 23 Guest Lecture on Simplicial Complexes, by [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html)
 - Assignments:
     * Complete [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
 
 ### Week 3 (30 Jan, 1 February)
 
 - Topics: Homology
+- Jan 23 Guest Lecture on TODO, by [Erin Chambers](https://www.slu.edu/science-and-engineering/academics/computer-science/faculty-and-staff/erin-chambers.php)
 - Assignments:
     * Continue working on H1.
 
