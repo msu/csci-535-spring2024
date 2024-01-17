@@ -362,6 +362,7 @@ papers and other resources found on the web.
 - Topics: Introductions, Shapes 
 - Readings:
     * See [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
+    * Dey and Wang, Chapter 1
 - Links:
     * [Miro](https://miro.com/app/board/uXjVN5XpKSo=/?share_link_id=989912125647)
     * [Euler, 1736](https://archive.org/details/commentariiacade08impe/page/n185/mode/2up), page 186
@@ -371,50 +372,65 @@ papers and other resources found on the web.
 
 ### Week 2 (23,25 January)
 
-- Topics: Simplicial Complexes, From Data to Complexes
-- Readings: 
-- Jan 23 Guest Lecture on Simplicial Complexes, by [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html)
+- Topics: Simplicial Complexes, From Data to Complexes (e.g., Vietoris-Rips and Cech Complexes)
+- Readings:
+    * Dey and Wang, Sections 2.1-2.3
+    * Edelsbrunner and Harer, Chapter III
+- Jan 23 zoom guest lecture on Simplicial Complexes, by [Dani Salinas](https://directory.msmary.edu/people/daniel-salinas-duron.html)
+- Jan 25 zoom guest lecture on the Nerve Theorem, by [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html)
 - Assignments:
     * Continue working on H1.
 
 ### Week 3 (30 Jan, 1 February)
 
 - Topics: Homology
-- Jan 23 Guest Lecture on TODO, by [Erin Chambers](https://www.slu.edu/science-and-engineering/academics/computer-science/faculty-and-staff/erin-chambers.php)
+- Readings:
+    * Dey and Wang, Sections 2.4-2.5
+    * Edelsbrunner and Harer, Chapter IV
+- Feb 1 Zoom guest lecture on homology, by [Erin Chambers](https://www.slu.edu/science-and-engineering/academics/computer-science/faculty-and-staff/erin-chambers.php)
 - Assignments:
     * Continue working on H1.
 
 ### Week 4 (6,8 February)
 
 - Topics: Computing Persistence
-- Feb 6 Guest Lecture on Computing Persistence, by [Alex McCleary](http://alexmccleary.org/)
-- Feb 8 Guest Lecture on Modern Persistence Computations, by [Hubert Wagner](https://people.clas.ufl.edu/hwagner/)
-- Readings: TBD
+- Readings and Viewings:
+    * [AATRN by Heiss](https://youtu.be/a-va5BRs14k?si=n57o7DvQ-uzEELkV)
+    * Dey and Wang, Chapter 3
+    * Edelsbrunner and Harer, Chapter VII
+- Feb 6 in-person guest lecture on Computing Persistence, by [Alex McCleary](http://alexmccleary.org/)
+- Feb 8 Zoom guest lecture on Modern Persistence Computations, by [Hubert Wagner](https://people.clas.ufl.edu/hwagner/)
 - Assignments:
     * Continue working on H1.
 
 ### Week 5 (13,15 February)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Functions and Reeb graphs
+- Readings: 
+    * Dey and Wang, Chapter 7 
+    * Edelsbrunner and Harer, Chapter VI
 - Assignments:
     * Continue working on H1.
 
 ### Week 6 (20,22 February)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Mapper
 - Readings:
     * [Mapper paper](https://diglib.eg.org/bitstream/handle/10.2312/SPBG.SPBG07.091-100/091-100.pdf?sequence=1)
-- Feb 22 Guest Lecture on Mapper, by [Facundo Mémoli](https://facundo-memoli.org/)
+    * Dey and Wang, Section 9.3
+- Feb 22 Zoom guest lecture on Mapper, by [Facundo Mémoli](https://facundo-memoli.org/)
 - Assignments:
     * Continue working on H1.
 
 
 ### Week 7 (27,29 February)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: More Persistence
+- Readings: 
+    * Dey and Wang, Section 9.3
+    * [Generalized Persistence Diagrams by Patel](https://arxiv.org/abs/1601.03107)
+    * [Edit Distance and Persistence Diagrams Over Lattices by McCleary and Patel](https://arxiv.org/abs/2010.07337)
+- Feb 29 Zoom guest lecture on Persistence over Posets, by [Amit Patel](https://akpatel79.github.io/)
 - Assignments:
     * H1 (the 6-week assignment) is due 2/29
 
