@@ -365,9 +365,10 @@ papers and other resources found on the web.
 ### Week 2 (23,25 January)
 
 - Topics: Simplicial Complexes, From Data to Complexes
+- Readings: 
 - Jan 23 Guest Lecture on Simplicial Complexes, by [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html)
 - Assignments:
-    * Complete [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
+    * Continue working on H1.
 
 ### Week 3 (30 Jan, 1 February)
 
@@ -441,7 +442,8 @@ papers and other resources found on the web.
 
 - Topics: TBD
 - Readings: TBD
-- Project Proposals are due!
+- Deliverables and deadlines:
+    * Your course project should be approved by this week.
 
 ### Week 13 (9,11 April)
 
@@ -468,12 +470,6 @@ papers and other resources found on the web.
 - Deliverables:
     * H5 due 4/30
     * Project deliverables due 5/2
-
-- Topics: Analyzing Algorithms and Point Set Topology
-- Readings:
-    * [Wiki: Eulerian Path](https://en.wikipedia.org/wiki/Eulerian_path)
-    * CLRS, Section 2.1 on Loop Invariants
-    * EH, Sections I.1-I.3
 
 ### Finals Week
 
