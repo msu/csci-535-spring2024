@@ -1,4 +1,4 @@
-# CSCI 535: Computational Topoloy, Spring 2022 #
+# CSCI 535: Computational Topoloy, Spring 2024 #
 
 This repository is for class materials for Computational Topology, taught by Prof. Fasy.
 
@@ -84,7 +84,7 @@ this class.
 To do so, follow these instructions:
     
     - Going to <https://github.com/new>
-    - Enter the name `my-csci-535-spring2022`
+    - Enter the name `my-csci-535-spring2024`
     - Select `Private`
     - **DO NOT ADD A README.MD or .gitignore!**
 
@@ -93,7 +93,7 @@ Once your repository is initialized, you can pull it down to your local machine.
 Next, you should add the class repository as an upstream git repo:
 
 ```bash
-$ git remote add upstream https://github.com/msu/csci-535-spring2022.git
+$ git remote add upstream https://github.com/msu/csci-535-spring2024.git
 $ git pull upstream main
 $ git push
 ```
@@ -107,7 +107,7 @@ $ git pull upstream main
 
 As a general workflow on your own repository, I suggest:
 ```
-$ git pull upstream master
+$ git pull upstream main
 [[ do work here ]]
 $ git add [[ list filenames edited ]]
 $ git commit -m "Descriptive message here"
