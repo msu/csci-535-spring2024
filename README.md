@@ -362,7 +362,9 @@ papers and other resources found on the web.
 - Topics: Introductions, Shapes 
 - Readings:
     * See [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
-    * Dey and Wang, Chapter 1
+    * Additional Topology Background: Dey and Wang, Chapter 1
+    * Loop Invariants: see handouts/topo-sort
+    * [Asymptotics](https://msu.github.io/csci-432-fall2023/assets/pdfs/08-30_asymptotics.pdf)
 - Links:
     * [Miro](https://miro.com/app/board/uXjVN5XpKSo=/?share_link_id=989912125647)
     * [Euler, 1736](https://archive.org/details/commentariiacade08impe/page/n185/mode/2up), page 186
@@ -387,6 +389,7 @@ papers and other resources found on the web.
 - Readings:
     * Dey and Wang, Sections 2.4-2.5
     * Edelsbrunner and Harer, Chapter IV
+    * Munkres, Chapter 1 (especially Section 11)
 - Feb 1 Zoom guest lecture on homology, by [Erin Chambers](https://www.slu.edu/science-and-engineering/academics/computer-science/faculty-and-staff/erin-chambers.php)
 - Assignments:
     * Continue working on H1.
