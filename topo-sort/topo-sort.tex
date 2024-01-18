@@ -1,0 +1,183 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+
+\usepackage{algorithm,algorithmic}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand{\algorithmiccomment}[2]{\hspace{#1}$\triangleright$ {#2} \hfill }
+
+\usepackage{amsfonts}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+\title{Topological Sort: Decrementing Functions and Loop Invariants}
+\author{CSCI 432}
+
+\begin{document}
+\maketitle
+
+\noindent
+Name:\\
+Who did you work with today?
+
+\section*{Topological Sort: The Algorithm}
+
+Topological sort takes a poset $(P,\leq)$ and returns a total order of all
+objects that is \emph{compatible} with the partial order of the poset.  By
+compatible, we mean that for all $a \leq b \in P$, we have $a$ appears before
+$b$ in the total order.  For example, consider $P$ to be a set of points in
+$\R^2$ and let the partial order be the product order; that is, $(a_x,a_y) \leq
+(b_x,b_y)$ if and only if $a_x \leq b_x$ and $a_y \leq b_y$.  Given a set:
+$$ P = \{ (0,0), (\pi, \pi), (2,4), (1,2) \}$$
+we can return the following total order:
+$$[ (0,0), (1,2), (2,4), (\pi, \pi)].$$
+Note that this is not the only compatible total order.  What other total order
+could have been returned?
+
+\textbf{Answer}
+\vspace{1in}
+
+The following algorithm takes as input a poset, represented as a directed
+acyclic graph, and returns a compatible total order.  If the poset orders $a
+\leq b$, then the DAG has an edge from vertex $a$ to vertex $b$ (so, pointing
+from `smaller' to `larger' here).  For this
+algorithm, vertices have at least one attribute, a variable named outgoing, which stores a list
+of vertices that define the outgoing edges. We present the algorithm on the next
+page.
+
+\begin{algorithm}[h]
+    \caption{Topological Sort}
+    %
+    \begin{algorithmic}[1]
+        \REQUIRE $G=(V,E)$, a DAG
+
+        \ENSURE $L$, a list of vertices in G in a total order compatible with
+        the partial order of the DAG.
+
+        \FOR {$v \in V$}
+            \STATE Add an attribute `$v$.count' and initialize it to the indegree of $v$.
+        \ENDFOR
+
+        \STATE $readyV \gets$ the set of vertices with `count'=0.\label{ln:initQ}
+
+        \STATE $L \gets$ array of length $|V|$
+        \STATE $i \gets 1$
+
+        \WHILE {$readyV$ is not empty}
+            \STATE $v \gets readyV.\textsc{POP}$
+            \STATE $L[i] \gets v$
+            \STATE $i++$
+            \FOR {$u \in v$.outgoing}
+                \STATE $u$.count$--$
+                \IF {$u$.count $=0$}
+                    \STATE Add $u$ to $readyV$
+                \ENDIF
+            \ENDFOR
+        \ENDWHILE
+
+        \RETURN $L$
+    \end{algorithmic}
+\end{algorithm}
+
+\pagebreak
+In Line~\ref{ln:initQ}, why is $readyV$ not empty? (Hint: you need to prove
+this!)
+
+\textbf{Answer}
+\vspace{1in}
+
+Explain how topological sort is helpful for dynamic programming.
+
+\textbf{Answer}
+\vspace{1in}
+
+Walk through a small example. (This should always be one of the first things you
+do when you encounter a new algorithm).
+
+\textbf{Answer}
+
+\pagebreak
+\section*{Topological Sort: The Decrementing Function}
+
+We can prove that an algorithm terminates in two ways: (1) prove it directly by
+giving an (asymptotic) runtime; (2) find a decrementing function.  A
+decrementing function is a function from the state space to a well-ordered set
+(usually the natural numbers, $\N$).  There is one rule though: the function
+MUST decrement between iterations of a loop or when making a recursive call. If
+such a function exists, then we know that the algorithm terminates!
+
+What is the decrementing function for the for loop?
+
+\textbf{Answer}
+\vspace{1in}
+
+What is the decrementing function for the while loop?
+
+\textbf{Answer}
+\vspace{1in}
+
+\section*{Topological Sort: The Loop Invariant}
+
+Now that we know that the algorithm terminates, let's prove that it is correct.
+Here, we investigate partial correctness of the while loop. (It's called partial
+correctness because we are proving "If the algorithm terminates, then it is
+correct").
+
+First, we need to identify a few statements.
+
+For this loop, what
+are the following statements (start with your best guess, then come back and
+revise if needed):
+
+First, the loop guard is the statement that keeps us in the loop.
+What is the loop guard $G$?
+\vspace{0.5in}
+
+The pre-conditions are everything that we know to be true upon entering the loop
+for the first time.
+What is the pre-condition $P$?
+\vspace{0.5in}
+
+The post-condition is what we want to be true at the end of the loop.  (i.e.,
+what is the loop supposed to do?)
+What is the post-condition $Q$?
+\vspace{0.5in}
+
+This one is tricky and might take some iterations.
+The loop invariant is the statement that we need in order to prove
+Initialization, Maintenance, and End below. Sometimes it might be helpful to
+include $i$, the number of times that we've iterated through the loop, in the
+notation for the loop invariant.  We call it an invariant because it's always
+true.
+What is the loop invariant $L=L_i$?
+\vspace{0.5in}
+
+
+There are three things that we need to prove.
+
+INITIALIZATION: The loop invariant must be true the first time we attempt
+entering the loop.  We abbreviate this as: $P \implies L$.
+
+\textbf{Proof}
+\vspace{2in}
+
+MAINTENANCE: The loop invariant must be true each time we attempt to enter the
+loop.  So, if we enter the loop and the loop invariant is true, then the loop
+invariant must be true the next time we attempt to enter the loop.  We
+abbreviate this as $L_i \wedge G \implies L_{i+1}$.
+
+\textbf{Proof}
+\vspace{3in}
+
+END: OK, we've entered the loop and the loop invariant is true. Then, we
+re-enter with the loop invariant true. Over and over and over again.  Finally,
+we exit the loop.  We now need to prove that if we exit the loop (and the loop
+invariant is true), then we've done what we wanted to do! In short, $L \wedge
+\neg G \implies Q$.
+
+\textbf{Proof}
+\vspace{2in}
+
+\end{document}
