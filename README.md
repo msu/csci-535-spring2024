@@ -432,7 +432,7 @@ papers and other resources found on the web.
     * Dey and Wang, Section 9.3
     * [Generalized Persistence Diagrams by Patel](https://arxiv.org/abs/1601.03107)
     * [Edit Distance and Persistence Diagrams Over Lattices by McCleary and Patel](https://arxiv.org/abs/2010.07337)
-- Feb 29 Zoom guest lecture on Persistence over Posets, by [Amit Patel](https://akpatel79.github.io/)
+- Feb 29 Zoom guest lecture on Generalizations of Persistence, by [Amit Patel](https://akpatel79.github.io/)
 - Assignments:
     * H1 (the 6-week assignment) is due 2/29
 
