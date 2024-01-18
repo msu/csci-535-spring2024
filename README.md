@@ -364,7 +364,6 @@ papers and other resources found on the web.
     * See [CompTaG onboarding](https://github.com/compTAG/student-resources/blob/master/how-tos/onboarding.md)
     * Additional Topology Background: Dey and Wang, Chapter 1
     * Loop Invariants: see handouts/topo-sort
-    * [Asymptotics](https://msu.github.io/csci-432-fall2023/assets/pdfs/08-30_asymptotics.pdf)
 - Links:
     * [Miro](https://miro.com/app/board/uXjVN5XpKSo=/?share_link_id=989912125647)
     * [Euler, 1736](https://archive.org/details/commentariiacade08impe/page/n185/mode/2up), page 186
