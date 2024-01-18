@@ -429,7 +429,7 @@ papers and other resources found on the web.
 
 - Topics: More Persistence
 - Readings: 
-    * Dey and Wang, Section 9.3
+    * Dey and Wang, Chapter 4 
     * [Generalized Persistence Diagrams by Patel](https://arxiv.org/abs/1601.03107)
     * [Edit Distance and Persistence Diagrams Over Lattices by McCleary and Patel](https://arxiv.org/abs/2010.07337)
 - Feb 29 Zoom guest lecture on Generalizations of Persistence, by [Amit Patel](https://akpatel79.github.io/)
