@@ -33,7 +33,7 @@ By the end of this course, a student will be able to:
 ## When and Where?
 
 * When? Tuesdays and Thursdays, 12:15-13:30
-* Where? Gaines 043
+* Where? AJMJH 251
 
 ## How do I contact you?
 
