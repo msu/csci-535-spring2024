@@ -33,7 +33,7 @@ By the end of this course, a student will be able to:
 ## When and Where?
 
 * When? Tuesdays and Thursdays, 12:15-13:30
-* Where? Gaines 043
+* Where? AJMJH 251
 
 ## How do I contact you?
 
@@ -378,7 +378,9 @@ papers and other resources found on the web.
     * Dey and Wang, Sections 2.1-2.3
     * Edelsbrunner and Harer, Chapter III
 - Jan 23 zoom guest lecture on Simplicial Complexes, by [Dani Salinas](https://directory.msmary.edu/people/daniel-salinas-duron.html)
+    * [Notes](https://dsalinasduron-msmary.github.io/comptop_jan23/index.html) and [activity](https://colab.research.google.com/drive/1_wBnlr5M3INm4OBFMpcZkN4P8YqmAH7v?usp=sharing).
 - Jan 25 zoom guest lecture on the Nerve Theorem, by [Atish Mitra](https://www.mtech.edu/mathematical-sciences/faculty/atish-mitra/index.html)
+    * [Notes](lectures/lec2/nerve-theorem.pdf) and [homework](hw/hw1/HW1-Atish.tex).
 - Assignments:
     * Continue working on H1.
 
