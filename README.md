@@ -440,30 +440,36 @@ papers and other resources found on the web.
 
 ### Week 8 (5,7 March)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Practice computations. 
+- Readings: See weeks 1-7.
 - Deliverables and Exam:
     * Oral Exam: Please send a slack message to schedule!
 
-### Week 9 (12,14 March)
+### Week 9 (SPRING BREAK)
 
-- Topics: TBD
-- Readings: TBD
-- Deliverables:
-    * H2 due 3/12
-    * Lit review due 3/15
+- No classes this week. 
 
 ### Week 10 (19,21 March)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Knots and Links
+- Readings: 
+    * Edelsbrunner and Harer, Section I.3
+- Practice Problems:
+    * EH Ch I, Problems 3, 5, 6
+- Deliverables:
+    * H2 (one problem) due 3/19
 
 ### Week 11 (26,28 March)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Graphs
+- Readings:
+    * Dey and Wang, Chapter 8
+    * Edelsbrunner and Harer, Chapter 1
+- Practice Problems:
+    * DW Ch 8, Problems 1, 2, 6
+    * EH Ch I, Problems 1, 2, 7, 8
 - Deliverables:
-    * H3 due 3/28
+    * Lit review due 3/26
 
 ### Week 12 (2,4 April)
 
@@ -471,23 +477,25 @@ papers and other resources found on the web.
 - Readings: TBD
 - Deliverables and deadlines:
     * Your course project should be approved by this week.
+    * H3 due 4/4
 
 ### Week 13 (9,11 April)
 
 - Topics: TBD
 - Readings: TBD
-- Deliverables:
-    * H4 due 4/11
 
 ### Week 14 (16,18 April)
 
 - Topics: TBD
 - Readings: TBD
+- Deliverables:
+    * H4 due 4/18
 
 ### Week 15 (23,25 April)
 
-- Topics: TBD
-- Readings: TBD
+- Project Presentations!
+    * Tuesday: TBD
+    * Thursday: TBD
 
 ### Week 16 (30 April, 1 May)
 
