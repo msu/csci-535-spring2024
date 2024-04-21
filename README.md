@@ -473,29 +473,39 @@ papers and other resources found on the web.
 
 ### Week 12 (2,4 April)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Directed Spaces 
+- Readings: [DATC](https://link-springer-com.proxybz.lib.montana.edu/book/10.1007/978-3-319-15398-8) Chapter 7
+- Practice Problem
+    * Sketch all configurations of path spaces in a directed cube with three
+      obstacles. Note the alive matrices.
+    * Prove that the homotopy type of all maximal paths in a closed d-cube are preserved
+      under a vertex/d-cube collapse, if and only if the vertex isn't the 0 or the 1
+      vector.
 - Deliverables and deadlines:
     * Your course project should be approved by this week.
     * H3 due 4/4
 
 ### Week 13 (9,11 April)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: More Path Spaces and Intro to DMT 
+- Readings: See weeks 12 and 14
+- Related paperss:
+    * [WCT 2020](https://arxiv.org/abs/1902.01039)
+    * [WCT 2022](https://arxiv.org/abs/2106.01524)
+    * [CCCG 2020](https://arxiv.org/pdf/2103.13882.pdf)
 
 ### Week 14 (16,18 April)
 
-- Topics: TBD
-- Readings: TBD
+- Topics: Discrete Morse Theory
+- Readings: DW Ch. 10
+- Practice Problems:
+    * DW Ch 10, Problems 1, 3, 5, 7
 - Deliverables:
     * H4 due 4/18
 
 ### Week 15 (23,25 April)
 
-- Project Presentations!
-    * Tuesday: TBD
-    * Thursday: TBD
+- Topics: Practice Problems 
 
 ### Week 16 (30 April, 1 May)
 
@@ -508,7 +518,10 @@ papers and other resources found on the web.
 
 ### Finals Week
 
-- Final Exam 
+- Project Presentations!
+- Deliverables:
+    * Final Exam
+    * (n+1)-st assignment
 
 --- 
 
