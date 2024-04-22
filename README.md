@@ -442,6 +442,10 @@ papers and other resources found on the web.
 
 - Topics: Practice computations. 
 - Readings: See weeks 1-7.
+- Practice Problems:
+    * HE Ch IV, Question 5
+    * HE Ch V, Questions 4,8
+    * HE Ch VI, Questions 7 
 - Deliverables and Exam:
     * Oral Exam: Please send a slack message to schedule!
 
